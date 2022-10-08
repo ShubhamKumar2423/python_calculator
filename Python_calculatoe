@@ -1,0 +1,51 @@
+# all arthimatic operator
+# print information
+
+print ("[] + for addition \n[] - for subtraction \n[] * for multiplication \n[] / for division \n[] // for floor division \n[] % for modulus")
+# creting operation variable
+print (1 * "\n")
+operation = input("enter opration :  ")
+
+#creting variable
+print (1 * "\n")
+num1 = float(input("first number \n|"))
+print(1 * "\n")
+num2 = float(input("second number \n|"))
+
+print (1 * "\n")
+print("----------------")
+       # addition
+if operation == '+':
+  print ('addition is ', num1 + num2)
+
+     # subtraction
+
+elif operation =='-':
+  print('subtrion is ',num1 - num2)
+
+    # multiplication
+  
+elif operation == '*':
+  print ("multiplication is ",num1 * num2)
+
+       # division
+
+elif operation== '/':
+  print ('division is ',num1 / num2)
+
+      # modulus
+
+elif operation == '%':
+  print ('modulus is ', num1 % num2)
+
+    # floor division 
+elif operation =='//':
+  print ('floor division is ', num1 // num2)
+else:
+  print ("wrong operation choosen")
+
+    
+
+     
+
+
